@@ -1,6 +1,6 @@
 # High voltage constant current sorce/sink
 
-I often need a simple low to medium current constant current source for tube amplifier projects. [Pete Millett recently released a CCSS board](http://pmillett.com/CCS.html), but the integrated heatsink made it a bit too bulky for my taste and case of my DIY SET headphone amp (coming soon).
+I often need a simple low to medium current constant current source for tube amplifier projects. [Pete Millett recently released a CCS board](http://pmillett.com/CCS.html), but the integrated heatsink made it a bit too bulky for my taste and case of my DIY SET headphone amp (coming soon).
 
 <p align="center">
     <img src="./Hardware/doc/HV%20CCS%203D%20View.png" width="500">
