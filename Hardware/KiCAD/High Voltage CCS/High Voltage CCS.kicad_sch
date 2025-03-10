@@ -1,0 +1,3991 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "956316b0-c662-472f-903b-64af4ce1ea29")
+	(paper "A5")
+	(title_block
+		(title "High Voltage CCS")
+		(date "2025-02-27")
+		(rev "2.0")
+		(company "C-Audio")
+		(comment 1 "Enhancements in Layout, ease of use and practicability")
+	)
+	(lib_symbols
+		(symbol "Connector:Conn_01x01_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Socket"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_TVS_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_TVS_Small"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS thyrector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_TVS_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.016) (xy -1.27 -1.016) (xy 1.27 1.016) (xy 1.27 -1.016) (xy -1.27 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.016) (xy 0 1.016) (xy 0 -1.016) (xy -0.508 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_TVS_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Q_NJFET_SDG"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NJFET_SDG"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-JFET transistor, source/drain/gate"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NJFET N-JFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NJFET_SDG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.016 0.381) (xy -1.016 -0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.397) (xy 0.254 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.27) (xy 0.254 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NJFET_SDG_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.334)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Potentiometer_Small"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_Small"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_Small_0_1"
+				(rectangle
+					(start 0.762 1.8034)
+					(end -0.762 -1.8034)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.889 0) (xy 0.635 0) (xy 1.651 0.381) (xy 1.651 -0.381) (xy 0.635 0) (xy 0.889 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(name "3"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0.9906)
+					(name "2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET_Other:DN2540N5-G"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "DN2540N5-G"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 0 -14.605 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/DN2540%20B060313.pdf"
+				(at 0 -12.065 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "150mA Ids, 400 Vds, Depletion-mode N-channel MOSFET, TO-220"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel Depletion-Mode MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DN2540N5-G_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DN2540N5-G_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET_Other:DN2540N8-G"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "DN2540N8-G"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+				(at 0 -14.605 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/DN2540%20B060313.pdf"
+				(at 0 -12.065 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "150mA Ids, 400 Vds, Depletion-mode N-channel MOSFET, SOT-89"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel Depletion-Mode MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?89*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DN2540N8-G_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DN2540N8-G_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VDD"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VSS"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VSS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VSS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VSS_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "VSS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "10k -> 0.1mA - 5ma\n1k  -> 2mA - 15mA\n200R-> 6mA - 50mA"
+		(exclude_from_sim no)
+		(at 87.376 74.676 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "152aa388-28e1-4e24-8d76-a2e07840771d")
+	)
+	(text "For powers above 1W use the TO220 part"
+		(exclude_from_sim no)
+		(at 131.318 42.672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ac54af1d-0d19-47bf-a297-7fadcd1bc418")
+	)
+	(text "100R -> 1mA = 100mV\n10R  -> 1mA = 10mV"
+		(exclude_from_sim no)
+		(at 93.98 90.678 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "edebcfa1-e9fc-44ba-b9ea-80b3869cd151")
+	)
+	(junction
+		(at 78.74 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cbdfff7-28d0-4af0-b3e1-3e253d457347")
+	)
+	(junction
+		(at 78.74 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "287a884e-c963-4eee-9626-54e2c1ed8e68")
+	)
+	(junction
+		(at 99.06 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32bbcd1c-5583-46bf-b581-3d68783ee756")
+	)
+	(junction
+		(at 88.9 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "348dcd08-1a36-4ef9-82ff-211a59074ae7")
+	)
+	(junction
+		(at 78.74 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d19b0b3-de72-486a-9a8c-132b4dbd42ca")
+	)
+	(junction
+		(at 78.74 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42da44f3-5f6f-47f0-a426-0d48a4dc1293")
+	)
+	(junction
+		(at 78.74 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44121544-4daa-43f3-ad24-01e4ed85b0ec")
+	)
+	(junction
+		(at 78.74 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b053ef5-c44f-434d-a2a0-5612f6872a5e")
+	)
+	(junction
+		(at 73.66 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ea7ea85-b447-4757-9e75-6edeb37f6a30")
+	)
+	(junction
+		(at 78.74 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7840d2fc-9423-48ca-b705-e8a9d5f8830e")
+	)
+	(junction
+		(at 87.63 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "837581db-770a-4695-9135-68f9fce12648")
+	)
+	(junction
+		(at 78.74 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "853a8981-489f-4813-93a6-4752951a5bc0")
+	)
+	(junction
+		(at 87.63 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6b51420-d3c6-4842-92db-850ce387ec64")
+	)
+	(junction
+		(at 99.06 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce6b90e1-4fac-4c4c-aac6-ff68dee5f016")
+	)
+	(junction
+		(at 67.31 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3e69d99-1f51-45ec-9a04-a96434656eb3")
+	)
+	(junction
+		(at 99.06 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df3f2e25-e324-4b7f-adcb-e88669185da4")
+	)
+	(junction
+		(at 88.9 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9ca2fd8-e417-4185-a659-5ad5f0ed002a")
+	)
+	(junction
+		(at 78.74 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f395aecf-c4b6-4c6d-a035-a185b568196b")
+	)
+	(wire
+		(pts
+			(xy 88.9 31.75) (xy 99.06 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0029d80e-f81d-4c04-9a57-4cf7f61d0b26")
+	)
+	(wire
+		(pts
+			(xy 78.74 50.8) (xy 78.74 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0297fb37-eadf-4cb1-93a4-23fb97a6655a")
+	)
+	(wire
+		(pts
+			(xy 78.74 31.75) (xy 88.9 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05b75079-6029-4405-9732-310e72f790d1")
+	)
+	(wire
+		(pts
+			(xy 87.63 45.72) (xy 107.95 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fad6a24-cb91-403f-8f09-3c3b52271c17")
+	)
+	(wire
+		(pts
+			(xy 99.06 54.61) (xy 99.06 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1154cb1f-7665-4980-9887-cb354bf4218c")
+	)
+	(wire
+		(pts
+			(xy 78.74 45.72) (xy 78.74 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d1b2bb-d912-42e8-9d24-5313176da007")
+	)
+	(wire
+		(pts
+			(xy 78.74 31.75) (xy 78.74 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e3167f2-fe67-446a-a339-8f9be60bf822")
+	)
+	(wire
+		(pts
+			(xy 80.01 93.98) (xy 78.74 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ef1e663-1782-4a44-bb60-6185ced50516")
+	)
+	(wire
+		(pts
+			(xy 78.74 93.98) (xy 78.74 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc3377d-220f-4ff9-bb14-4321ce747e78")
+	)
+	(wire
+		(pts
+			(xy 99.06 38.1) (xy 99.06 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2034e925-8caa-43aa-82c5-78bbfb6d816d")
+	)
+	(wire
+		(pts
+			(xy 78.74 68.58) (xy 78.74 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2173de4d-8d6e-40d5-98dc-2f9f976cae4c")
+	)
+	(wire
+		(pts
+			(xy 67.31 66.04) (xy 73.66 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "278c5750-e11b-42e7-a561-b1741b2d6ad5")
+	)
+	(wire
+		(pts
+			(xy 71.12 59.69) (xy 67.31 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d037d6e-0e07-4a14-b9a5-46ff99bb6da8")
+	)
+	(wire
+		(pts
+			(xy 78.74 45.72) (xy 87.63 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33a6b891-d60f-4374-b0e0-faa5ed550814")
+	)
+	(wire
+		(pts
+			(xy 80.01 88.9) (xy 78.74 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "399bfb44-ea56-4f7b-9e5c-eb47c86829db")
+	)
+	(wire
+		(pts
+			(xy 78.74 87.63) (xy 78.74 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c75ce60-0e5c-413a-b310-c41aefdf6bcb")
+	)
+	(wire
+		(pts
+			(xy 76.2 80.01) (xy 78.74 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6a5a08-867a-4168-98a0-3d631b19d8dd")
+	)
+	(wire
+		(pts
+			(xy 87.63 38.1) (xy 99.06 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "433d38c7-2280-44f0-98d2-741d6d582dbd")
+	)
+	(wire
+		(pts
+			(xy 73.66 73.66) (xy 73.66 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af6726f-da80-47c3-8b4d-811677f7be42")
+	)
+	(wire
+		(pts
+			(xy 78.74 95.25) (xy 78.74 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "570603dc-50cc-4aeb-9782-d8caad302285")
+	)
+	(wire
+		(pts
+			(xy 78.74 81.28) (xy 78.74 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c79d24-7149-42e1-bc99-2272ed7aa849")
+	)
+	(wire
+		(pts
+			(xy 73.66 73.66) (xy 78.74 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2ca8df-3a6b-4f3c-be39-0b0aac493629")
+	)
+	(wire
+		(pts
+			(xy 87.63 44.45) (xy 87.63 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c31e7d9-831f-40ee-80a9-abf48b88c197")
+	)
+	(wire
+		(pts
+			(xy 78.74 68.58) (xy 88.9 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83b2a04b-49d1-40f4-895e-8794f6cdc00e")
+	)
+	(wire
+		(pts
+			(xy 88.9 50.8) (xy 88.9 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85beb846-743c-4fde-9426-97cbf480df22")
+	)
+	(wire
+		(pts
+			(xy 81.28 59.69) (xy 81.28 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86e63dbd-bf92-4bf1-a97a-27a6b4bcb74e")
+	)
+	(wire
+		(pts
+			(xy 67.31 66.04) (xy 67.31 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ae3a923-5c9e-4a8c-ac4d-f88d4221d374")
+	)
+	(wire
+		(pts
+			(xy 78.74 88.9) (xy 67.31 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d0e9bc8-e478-4f53-97e1-a9a0cd6cc601")
+	)
+	(wire
+		(pts
+			(xy 99.06 68.58) (xy 118.11 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8de58d8a-953c-42c0-91d1-dc33ea10f550")
+	)
+	(wire
+		(pts
+			(xy 88.9 68.58) (xy 99.06 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "906c08ca-b830-4e7b-956d-508d7c41293a")
+	)
+	(wire
+		(pts
+			(xy 73.66 67.31) (xy 73.66 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9096386b-4c47-4a69-9975-8ba67864530f")
+	)
+	(wire
+		(pts
+			(xy 78.74 45.72) (xy 78.74 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91bb76a5-81a7-48ac-9479-bef87bf58cfd")
+	)
+	(wire
+		(pts
+			(xy 78.74 73.66) (xy 78.74 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98aadad6-7d81-41ef-b6b3-fe43228b1ab6")
+	)
+	(wire
+		(pts
+			(xy 87.63 39.37) (xy 87.63 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db49413-4575-4293-967a-91b26c91f029")
+	)
+	(wire
+		(pts
+			(xy 78.74 64.77) (xy 78.74 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fffa251-57a1-4238-b526-5660f68c9b22")
+	)
+	(wire
+		(pts
+			(xy 78.74 29.21) (xy 78.74 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c09a51-7aa2-4dc8-b000-f7d611c4ec2d")
+	)
+	(wire
+		(pts
+			(xy 67.31 74.93) (xy 67.31 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a949ca91-5b10-405f-b43f-afe67098063c")
+	)
+	(wire
+		(pts
+			(xy 88.9 64.77) (xy 88.9 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8f93ee4-3f69-4a89-9dc1-45c6a1d0c7dc")
+	)
+	(wire
+		(pts
+			(xy 86.36 38.1) (xy 87.63 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba5a9f78-508a-48c6-a11b-38547343e71e")
+	)
+	(wire
+		(pts
+			(xy 78.74 80.01) (xy 78.74 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d0c55d-fd7f-4a82-9cce-88113f79ac9d")
+	)
+	(wire
+		(pts
+			(xy 76.2 77.47) (xy 76.2 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c34898eb-c0cb-4b81-949a-8ac81c2e997e")
+	)
+	(wire
+		(pts
+			(xy 99.06 38.1) (xy 100.33 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3c669ad-ea61-43b9-8313-e991cee71877")
+	)
+	(wire
+		(pts
+			(xy 78.74 81.28) (xy 118.11 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6f846bd-2b6e-401b-bece-b68730b6eb16")
+	)
+	(wire
+		(pts
+			(xy 107.95 45.72) (xy 107.95 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8356bbb-29d9-43b2-b379-ced92c78c0e6")
+	)
+	(wire
+		(pts
+			(xy 78.74 50.8) (xy 88.9 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d400d2ca-d460-4825-a9e5-abe2535bf01f")
+	)
+	(wire
+		(pts
+			(xy 67.31 59.69) (xy 67.31 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e771e769-75a6-43c7-8b62-6664d668dc29")
+	)
+	(wire
+		(pts
+			(xy 81.28 66.04) (xy 73.66 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1d5f458-44ac-4b09-a59e-460f071d3067")
+	)
+	(wire
+		(pts
+			(xy 107.95 33.02) (xy 107.95 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f47c48a3-635a-449d-9165-5d345f4d551e")
+	)
+	(wire
+		(pts
+			(xy 99.06 31.75) (xy 107.95 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f579953e-c860-4ba5-a668-047556410443")
+	)
+	(label "Mu-Follower_out"
+		(at 116.84 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "83ad23a1-66a4-4edc-bbed-2ce3cada9109")
+	)
+	(label "V-Set"
+		(at 100.33 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf13cb8f-c1f2-4272-9c06-363cfb1142be")
+	)
+	(netclass_flag ""
+		(length 0.508)
+		(shape round)
+		(at 78.74 91.44 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "344e9ff9-a04b-4af3-a456-012396a33a3c")
+		(property "Netclass" "PWR-Path"
+			(at 78.232 90.7415 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at -69.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.508)
+		(shape round)
+		(at 78.74 47.625 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b7ee426-3917-4f23-a33f-cba263faabc7")
+		(property "Netclass" "PWR-Path"
+			(at 78.232 46.9265 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at -69.85 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.508)
+		(shape round)
+		(at 78.74 71.12 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "735c857f-d99c-4dfb-afb4-5a02cfdc5a29")
+		(property "Netclass" "PWR-Path"
+			(at 78.232 70.4215 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at -69.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.508)
+		(shape round)
+		(at 78.74 81.28 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c944ecae-5438-47da-9eb9-12f51d88b714")
+		(property "Netclass" "PWR-Path"
+			(at 78.232 80.5815 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at -69.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.508)
+		(shape round)
+		(at 78.74 30.48 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2ae0406-d512-4bd2-a175-4bf8413b8d10")
+		(property "Netclass" "PWR-Path"
+			(at 78.232 29.7815 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at -69.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 85.09 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e6e4408-915e-4412-8ba9-7da6987f0a35")
+		(property "Reference" "J3"
+			(at 86.36 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CCS-"
+			(at 86.36 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D1.3mm_L11.0mm"
+			(at 85.09 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 85.09 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7650cdec-24d5-4d5c-a4ee-ba393b454641")
+		)
+		(instances
+			(project "C-Audio HV-CCS"
+				(path "/956316b0-c662-472f-903b-64af4ce1ea29"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS_Small")
+		(at 87.63 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10a8d05f-4283-42b0-9749-75ab6964e080")
+		(property "Reference" "D2"
+			(at 92.202 40.894 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SD12C-7"
+			(at 98.298 43.434 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 87.63 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/115/DIOD_S_A0009691744_1-2543273.pdf"
+			(at 87.63 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
+			(at 87.63 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.de/ProductDetail/621-SD12C-7"
+			(at 87.63 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Nr." " 621-SD12C-7 "
+			(at 87.63 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "76c508f2-7f72-4109-9afa-44e5638e63b1")
+		)
+		(pin "1"
+			(uuid "cb2deb92-6348-4011-813f-89833c73da05")
+		)
+		(instances
+			(project "C-Audio HV-CCS"
+				(path "/956316b0-c662-472f-903b-64af4ce1ea29"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET_Other:DN2540N8-G")
+		(at 76.2 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12149a68-bc7f-47e7-b6a9-35798ef2240f")
+		(property "Reference" "Q3"
+			(at 75.184 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BSP149"
+			(at 75.184 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 76.2 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/196/Infineon_BSP149_DS_v02_01_en-1226393.pdf"
+			(at 76.2 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFETs N-Ch 200V 660mA SOT-223-3"
+			(at 76.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser-Nr." "DN2540N8-G "
+			(at 76.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.de/ProductDetail/Infineon-Technologies/BSP149H6327XTSA1?qs=LqwxS8kK3At81Far7yrPeQ%3D%3D"
+			(at 76.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Nr." " 726-BSP149H6327XTSA1 "
+			(at 76.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "618a40c9-730c-4574-aafb-de5cf44cc9b0")
+		)
+		(pin "2"
+			(uuid "2c6af7ad-48df-4976-be06-99c4dbdc611c")
+		)
+		(pin "1"
+			(uuid "25d7d569-f43d-4224-9e92-6db745a9e530")
+		)
+		(instances
+			(project "C-Audio HV-CCS"
+				(path "/956316b0-c662-472f-903b-64af4ce1ea29"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 123.19 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43225c37-398f-4d2b-8eda-4b9fb1030ded")
+		(property "Reference" "J4"
+			(at 124.46 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V-Set"
+			(at 124.46 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D1.3mm_L11.0mm"
+			(at 123.19 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 123.19 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" ""
+			(at 123.19 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Nr." ""
+			(at 123.19 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b04d7b20-2ecb-44aa-ad54-f7fbb2709b3a")
+		)
+		(instances
+			(project "C-Audio HV-CCS"
+				(path "/956316b0-c662-472f-903b-64af4ce1ea29"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VSS")
+		(at 78.74 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c121cf3-c9f7-43be-ae49-13e8967219f6")
+		(property "Reference" "#PWR03"
+			(at 78.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 78.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 78.74 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd131b46-b9d7-412f-9cbd-fe52ee0115c3")
+		)
+		(instances
+			(project ""
+				(path "/956316b0-c662-472f-903b-64af4ce1ea29"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 67.31 72.39 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cbf5959-b208-43bd-9fe9-37412ab7fc3a")
+		(property "Reference" "R2"
+			(at 65.278 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 65.278 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 67.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 67.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser-Nr." "603-RE0805FRE07330RL"
+			(at 67.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" ""
+			(at 67.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Nr." ""
+			(at 67.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "641cc2e6-7e9b-449b-9fd6-bda905c5e3ea")
+		)
+		(pin "2"
+			(uuid "02fde308-1a11-4ef7-85b4-0d91280370c5")
+		)
+		(instances
+			(project "C-Audio HV-CCS"
+				(path "/956316b0-c662-472f-903b-64af4ce1ea29"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 135.89 33.655 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c8ca9b4-4f4f-47e8-a401-a7ff2a957e82")
+		(property "Reference" "H1"
+			(at 138.43 32.3849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 138.43 34.9249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 135.89 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 135.89 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "C-Audio HV-CCS"
+				(path "/956316b0-c662-472f-903b-64af4ce1ea29"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 99.06 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6de8a192-dd2a-4cff-97d2-0c2e4bddabe0")
+		(property "Reference" "J1"
+			(at 100.33 26.0349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CCS+"
+			(at 100.33 28.5749 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D1.3mm_L11.0mm"
+			(at 99.06 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 99.06 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7650cdec-24d5-4d5c-a4ee-ba393b454642")
+		)
+		(instances
+			(project "C-Audio HV-CCS"
+				(path "/956316b0-c662-472f-903b-64af4ce1ea29"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET_Other:DN2540N8-G")
+		(at 81.28 38.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "753034ff-d8de-47e7-8cc8-375c0ff26df3")
+		(property "Reference" "Q1"
+			(at 74.93 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DN2540N8-G"
+			(at 74.93 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 81.28 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/DN2540%20B060313.pdf"
+			(at 81.28 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "150mA Ids, 400 Vds, Depletion-mode N-channel MOSFET, SOT-89"
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser-Nr." "DN2540N8-G "
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" ""
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Nr." ""
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4b805f74-b0ae-4b03-840c-07c28fbd5b71")
+		)
+		(pin "2"
+			(uuid "e6cf1fae-82d3-42c0-b5e3-3c4bbc17ba61")
+		)
+		(pin "1"
+			(uuid "bb235697-248b-4394-af20-e1c7bd8a3020")
+		)
+		(instances
+			(project "C-Audio HV-CCS"
+				(path "/956316b0-c662-472f-903b-64af4ce1ea29"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 85.09 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9becb00e-0867-4a53-ba85-c0aa78e40301")
+		(property "Reference" "J5"
+			(at 86.36 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CCS-"
+			(at 86.36 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D1.3mm_L11.0mm"
+			(at 85.09 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 85.09 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c17c79f2-792e-457e-b7c2-d025fab6a970")
+		)
+		(instances
+			(project "C-Audio HV-CCS"
+				(path "/956316b0-c662-472f-903b-64af4ce1ea29"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS_Small")
+		(at 73.66 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8a659b1-363b-4441-81f3-ed4d68b2f0d0")
+		(property "Reference" "D1"
+			(at 73.66 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SD12C-7"
+			(at 77.978 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 73.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/115/DIOD_S_A0009691744_1-2543273.pdf"
+			(at 73.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
+			(at 73.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.de/ProductDetail/621-SD12C-7"
+			(at 73.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Nr." " 621-SD12C-7 "
+			(at 73.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9d4452f4-b69c-4ef2-a1c2-ee9617fbb5e8")
+		)
+		(pin "1"
+			(uuid "7270a26e-85be-4c26-8c82-079f504a1797")
+		)
+		(instances
+			(project ""
+				(path "/956316b0-c662-472f-903b-64af4ce1ea29"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 99.06 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3dfef07-c9b3-4920-9952-236d89d06a70")
+		(property "Reference" "R1"
+			(at 101.6 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 101.6 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 99.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 99.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser-Nr." "603-RE0805FRE07330RL"
+			(at 99.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" ""
+			(at 99.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Nr." ""
+			(at 99.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5558cd92-12e9-49bd-bc90-ab855222438a")
+		)
+		(pin "2"
+			(uuid "ede206e6-305b-47b5-9898-162c0748c831")
+		)
+		(instances
+			(project "C-Audio HV-CCS"
+				(path "/956316b0-c662-472f-903b-64af4ce1ea29"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 88.9 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8d16010-de09-47c3-9341-006fafbb7174")
+		(property "Reference" "J6"
+			(at 90.17 26.0349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CCS+"
+			(at 90.17 28.5749 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D1.3mm_L11.0mm"
+			(at 88.9 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 88.9 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b6d8198-52da-4f8a-99fa-3f5b1a58ee64")
+		)
+		(instances
+			(project "C-Audio HV-CCS"
+				(path "/956316b0-c662-472f-903b-64af4ce1ea29"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET_Other:DN2540N5-G")
+		(at 105.41 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc1445a9-d98d-450d-aec8-15feba2030c4")
+		(property "Reference" "Q2"
+			(at 109.474 31.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DN2540N5-G"
+			(at 109.474 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 105.41 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/DN2540%20B060313.pdf"
+			(at 105.41 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "150mA Ids, 400 Vds, Depletion-mode N-channel MOSFET, TO-220"
+			(at 105.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser-Nr." "689-DN2540N5-G"
+			(at 105.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "adbcad3e-e788-4c6f-8e60-e3150c7dedd0")
+		)
+		(pin "2"
+			(uuid "365e6c9f-c231-4b20-863a-290323841b46")
+		)
+		(pin "1"
+			(uuid "c3c868b0-a0eb-4a3f-9cf4-6cc346c14737")
+		)
+		(instances
+			(project "C-Audio HV-CCS"
+				(path "/956316b0-c662-472f-903b-64af4ce1ea29"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 78.74 85.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d05b7c22-96d0-420b-98a4-5a77d5b5cf6f")
+		(property "Reference" "R3"
+			(at 76.2 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10R"
+			(at 76.2 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 78.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 78.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser-Nr." "71-CRCW080510R0FKEAC"
+			(at 78.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser-Link" ""
+			(at 78.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt-Link" ""
+			(at 78.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt-Nr." ""
+			(at 78.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62e4fe29-2895-450f-8526-8a4b9f3a2a17")
+		)
+		(pin "2"
+			(uuid "28b6215b-eb7c-4627-8f3e-67a325ddc5f6")
+		)
+		(instances
+			(project "C-Audio HV-CCS"
+				(path "/956316b0-c662-472f-903b-64af4ce1ea29"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 78.74 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da525629-b5ef-4a12-a028-3530fafa36b7")
+		(property "Reference" "#PWR01"
+			(at 78.74 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 78.74 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 78.74 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ca43391-5b48-4c99-b3ce-b00f8f2975ba")
+		)
+		(instances
+			(project ""
+				(path "/956316b0-c662-472f-903b-64af4ce1ea29"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Small")
+		(at 78.74 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "daaa12bc-5eec-4cbf-a5ed-4584fc105e06")
+		(property "Reference" "RV1"
+			(at 81.28 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 81.28 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 78.74 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 78.74 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser-Nr." "81-PV36Y501C01B00"
+			(at 78.74 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" ""
+			(at 78.74 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Nr." ""
+			(at 78.74 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73d1a08f-f616-43e5-a392-3380d088b6dd")
+		)
+		(pin "3"
+			(uuid "1b7eba46-9e67-4ef9-b1aa-a43123591c11")
+		)
+		(pin "2"
+			(uuid "a5198c58-bf38-4e48-9036-ecc9bc82c81e")
+		)
+		(instances
+			(project "C-Audio HV-CCS"
+				(path "/956316b0-c662-472f-903b-64af4ce1ea29"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NJFET_SDG")
+		(at 86.36 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0f616d1-239c-48d2-87fc-801b701e36d4")
+		(property "Reference" "Q5"
+			(at 89.408 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CPH3910"
+			(at 89.408 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+			(at 91.44 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/PowerSolutions/product.do?id=CPH3910-TL-E"
+			(at 86.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-JFET transistor, source/drain/gate"
+			(at 86.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.de/ProductDetail/onsemi/CPH3910-TL-E?qs=8%252BXDBfnGdByfAwiOp4BYtw%3D%3D"
+			(at 86.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Nr." " 863-CPH3910-TL-E "
+			(at 86.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e75878e8-f01b-430b-8d46-4019031c60ae")
+		)
+		(pin "2"
+			(uuid "e7aa1031-84c4-4e07-b583-8eeb737f07f1")
+		)
+		(pin "1"
+			(uuid "757e5215-e272-4e61-8485-36c8f6df825d")
+		)
+		(instances
+			(project ""
+				(path "/956316b0-c662-472f-903b-64af4ce1ea29"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 123.19 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdf1937a-0877-4d7e-92d0-f7d91060ed03")
+		(property "Reference" "J2"
+			(at 124.46 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mu-Out"
+			(at 124.46 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D1.3mm_L11.0mm"
+			(at 123.19 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 123.19 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7650cdec-24d5-4d5c-a4ee-ba393b454643")
+		)
+		(instances
+			(project "C-Audio HV-CCS"
+				(path "/956316b0-c662-472f-903b-64af4ce1ea29"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
