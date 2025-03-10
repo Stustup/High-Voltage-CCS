@@ -8,7 +8,7 @@ I often need a simple low to medium current constant current source for tube amp
 
 The CCS consists of a cascaded MosFET (or JFET for the lower device) topology as per for example "Valve Amplifiers by Morgan Jones p.152 (D)". 
 
-You have the coice on every stage on what device you want to use. The upper stage sees most of the voltage drop, so you have the choice of a TO220 and a SOT89 package. Use the TO220 for possible power dissipations of up to 1W, the SOT89 for everything below. I did this to get the footprint even smaller when you need it, e.g. Anode Resistors in small current pre stages. 
+You have the choice on every stage on what device you want to use. The upper stage sees most of the voltage drop, so you have the choice of a TO220 and a SOT89 package. Use the TO220 for possible power dissipations of above to 1W, the SOT89 for everything below. I did this to get the footprint even smaller when you need it, e.g. Anode Resistors in small current pre stages. 
 
 In the lower stage you can choose between a SOT89 (same as above) and a SOT23 package. For currents above 5mA use the SOT89, for currents above use the SOT89 device. The SOT23 package can be a JFET to get low noise low current sinks/sources.
 
