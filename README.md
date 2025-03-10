@@ -15,3 +15,6 @@ The CCS consists of a cascaded MosFET (or JFET for the lower device) topology as
 You have the coice on every stage on what device you want to use. The upper stage sees most of the voltage drop, so you have the choice of a TO220 and a SOT89 package. Use the TO220 for possible power dissipations of up to 1W, the SOT89 for everything below. I did this to get the footprint even smaller when you need it, e.g. Anode Resistors in small current pre stages. 
 
 In the lower stage you can choose between a SOT89 (same as above) and a SOT23 package. For currents above 5mA use the SOT89, for currents above use the SOT89 device. The SOT23 package can be a JFET to get low noise low current sinks/sources.
+
+
+I added TVS diodes to protect the gates of the FETS. Measuring the current can be done via the V-Set pad. Just measure between this and the VSS pin. The current can be calculated via the measured voltage times the current set resistor R3. 
