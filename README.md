@@ -23,4 +23,4 @@ You can mark on the little cute table on the right side of the PCB which version
 
 As for setting the CCS beforehand, i connect it to either a bench top PSU with a voltage of around 20V or, if i dont have it, to a USB-C trigger board set to 20V. You can also turn the potentiometer to the lowerst possible current, but i fat fingered this too often and set the maximum current instead, destroying a way too expensive lateral MosFET in an audio amp.
 
-Mister Millett added a Mu-out on his board for possible MU follower configurations. I never tryed it, but included it anyways for experimentation purposes. Read on (his site how to use it)[http://pmillett.com/CCS.html].
+Mister Millett added a Mu-out on his board for possible MU follower configurations. I never tried it, but included it anyways for experimentation purposes. Read on (his site how to use it)[http://pmillett.com/CCS.html].
