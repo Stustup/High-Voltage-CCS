@@ -14,20 +14,16 @@ In the lower stage you can choose between a SOT89 (same as above) and a SOT23 pa
 
 ![Schematic of the CCS](./Hardware/doc/HV%20CCS%20Schematic.png)
 
-I added TVS diodes to protect the gates of the FETS. Measuring the current can be done via the V-Set pad. Just measure between this and the VSS pin. The current can be calculated via the measured voltage times the current set resistor R3. 
+I added TVS diodes to protect the gates of the FETS. Measuring the current can be done via the V-Set pad. Just measure between this and the VSS pin. The current can be calculated via the measured voltage times the current-set resistor R3.
 
 You can mark on the little cute table on the right side of the PCB which version you built to prevent confusion and possibly destroyed devices. 
 
 As for setting the CCS beforehand, i connect it to either a bench top PSU with a voltage of around 20V or, if i dont have it, to a USB-C trigger board set to 20V. You can also turn the potentiometer to the lowerst possible current, but i fat fingered this too often and set the maximum current instead, destroying a way too expensive lateral MosFET in an audio amp.
 
-<<<<<<< HEAD
-Mister Millett added a Mu-out on his board for possible MU follower configurations. I never tryed it, but included it anyways for experimentation purposes. Read on (his site how to use it)[http://pmillett.com/CCS.html].
+Mister Millett added a Mu-out on his board for possible MU follower configurations. I never tried it, but included it anyways for experimentation purposes. Read on (his site how to use it)[http://pmillett.com/CCS.html].
 
 <p align="center">
     <img src="./Hardware/doc/HV CCS side.png" width="700">
 </p>
 
-The board gets its small size from the (if i may say so) relatively uncinventional way you mount the board and its TO220 package to the case. you only need a single mountin hole on your amps case, an insulation washer and a (preferrably nylon) spacer. The mounting holes are made for M3 - M3.5 bolts.
-=======
-Mister Millett added a Mu-out on his board for possible MU follower configurations. I never tried it, but included it anyways for experimentation purposes. Read on (his site how to use it)[http://pmillett.com/CCS.html].
->>>>>>> e7e15ba2096acf33e8184494dcf0ddc7e5ebe110
+The board gets its small size from the (if i may say so) relatively unconventional way you mount the board and it's TO220 package to the case. you only need a single mounting hole on your amp's case, an insulation washer and a (preferrably nylon) spacer. The mounting holes are made for M3 - M3.5 bolts.
