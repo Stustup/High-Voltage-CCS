@@ -18,3 +18,7 @@ In the lower stage you can choose between a SOT89 (same as above) and a SOT23 pa
 
 
 I added TVS diodes to protect the gates of the FETS. Measuring the current can be done via the V-Set pad. Just measure between this and the VSS pin. The current can be calculated via the measured voltage times the current set resistor R3. 
+
+You can mark on the little cute table on the right side of the PCB which version you built to prevent confusion and possibly destroyed devices. 
+
+As for setting the CCS beforehand, i connect it to either a bench top PSU with a voltage of around 20V or, if i dont have it, to a USB-C trigger board set to 20V. You can also turn the potentiometer to the lowerst possible current, but i fat fingered this too often and set the maximum current instead, destroying a way too expensive lateral MosFET in an audio amp.
